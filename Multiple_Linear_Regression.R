@@ -24,4 +24,4 @@ summary(results_improved)
 anova(results_improved,results)
 #prediction
 pred <- predict(results_improved,data.frame(lh=10),interval = "confidence")
-pred
+print(pred)
